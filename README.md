@@ -260,7 +260,7 @@ Documentation is automatically generated from code using [Sphinx](https://www.sp
 
 The HTML version of the docummentaion is in the `docs` folder and can be updated anytime by runnig `make html` from the docs folder.
 
-A github action, executes this command after each commit and published the docs here: [https://criadoperez.gihub.io/algorand_account_watcher](https://criadoperez.gihub.io/algorand_account_watcher)
+A github action, executes this command after each commit and published the docs here: [https://criadoperez.github.io/algorand_account_watcher](https://criadoperez.github.io/algorand_account_watcher)
 
 ## Limitations and future improvements
 
