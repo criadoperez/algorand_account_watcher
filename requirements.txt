@@ -1,0 +1,4 @@
+Flask==3.0.0
+py-algorand-sdk==1.8.0
+sphinx
+sphinx_rtd_theme
