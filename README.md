@@ -67,7 +67,7 @@ flowchart TD
 2. Run the application:
 
 ```bash
-$ python3 watcher.py`
+python3 ./watcher/watcher.py`
 ```
 
 You should see output similar to:
