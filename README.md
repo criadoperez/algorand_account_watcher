@@ -8,13 +8,12 @@ This application allows users to monitor Algorand account addresses by adding th
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Explanation](#explanation)
+- [Implementation](#implementation)
 - [Server Setup](#server-setup)
 - [Usage](#usage)
     - [Add account to the Watcher List](#add-account-to-the-watcher-list)
     - [Listing Tracked Accounts and Their States](#listing-tracked-accounts-and-their-states)
-- [Monitoring](#monitoring)
-- [Logging and Monitoring](#logging-and-monitoring)
+- [Monitoring and Logging](#monitoring-and-logging)
 - [Production Deployment](#production-deployment)
 - [Testing](#testing)
 - [Documentation](#documentation)
@@ -59,12 +58,18 @@ flowchart TD
 
 ## Server Setup
 
-1. Install dependencies:
+You will need [Python 3.x](https://www.python.org/downloads/) installed in your system.
+
+1. Clone the repository and enter its folder
+
+`git clone https://github.com/criadoperez/algorand_account_watcher.git && cd algorand_account_watcher ` 
+
+2. Install dependencies:
 
 `pip install -r requirements.txt`
 
 
-2. Run the application:
+3. Run the application:
 
 ```bash
 python3 ./watcher/watcher.py`
